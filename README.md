@@ -31,7 +31,19 @@ This project allowed me to apply key C++ concepts like class creation, encapsula
 
 ## Upcoming Concepts
 
-In the next stages, I will be learning the following advanced C++ topics:
+In the next stages, I will be learning the following intermediate and advanced C++ topics:
+
+### Friend Functions and Friend Class
+I'll be exploring **friend functions** and **friend classes**, which allow external functions or other classes to access the private and protected members of a class, breaking the encapsulation under certain circumstances.
+
+### Static Member Variables and Functions
+I'll learn about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
+
+### File Handling
+I'll further dive into **file handling** in C++, learning how to read from and write to files using streams. This will be crucial for building applications that require persistent data storage.
+
+### Exception Handling
+I'll focus on managing errors gracefully during runtime using **exception handling**, ensuring that programs can handle unexpected situations without crashing.
 
 ### Standard Template Library (STL)
 I'll explore the **STL**, which includes powerful collections of data structures and algorithms like **vectors**, **maps**, **sets**, and **iterators**. This will allow me to write efficient and reusable code with minimal effort by leveraging these built-in structures and functions.
@@ -44,9 +56,6 @@ I'll learn the basics of **multi-threading**, which will enable me to write prog
 
 ### Lambda Functions
 I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
-
-### Exception Handling
-I'll focus on managing errors gracefully during runtime using C++ **exception handling**, ensuring that programs can handle unexpected situations without crashing.
 
 ### GUI Development with Qt5
 Finally, I'll get started with **GUI development** using **Qt5**, learning to build interactive graphical user interfaces. This will allow me to create user-friendly applications with modern UI elements.
