@@ -23,6 +23,9 @@ I've also learned about pointers and how to use them for dynamic memory allocati
 ### Friend Functions and Friend Class
 I've  discovered **friend functions** and **friend classes**, which allow external functions or other classes to access the private and protected members of a class, breaking the encapsulation under certain circumstances.
 
+### Static Member Variables and Functions
+I've learned about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
+
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -35,11 +38,6 @@ This project allowed me to apply key C++ concepts like class creation, encapsula
 ## Upcoming Concepts
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
-
-
-
-### Static Member Variables and Functions
-I'll learn about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
 
 ### File Handling
 I'll further dive into **file handling** in C++, learning how to read from and write to files using streams. This will be crucial for building applications that require persistent data storage.
