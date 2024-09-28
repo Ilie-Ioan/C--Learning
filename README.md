@@ -26,6 +26,9 @@ I've  discovered **friend functions** and **friend classes**, which allow extern
 ### Static Member Variables and Functions
 I've learned about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
 
+### File Handling
+I've discoverd into **file handling** in C++, learning how to read from and write to files using streams. This will be crucial for building applications that require persistent data storage.
+
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -39,8 +42,7 @@ This project allowed me to apply key C++ concepts like class creation, encapsula
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
 
-### File Handling
-I'll further dive into **file handling** in C++, learning how to read from and write to files using streams. This will be crucial for building applications that require persistent data storage.
+
 
 ### Exception Handling
 I'll focus on managing errors gracefully during runtime using **exception handling**, ensuring that programs can handle unexpected situations without crashing.
