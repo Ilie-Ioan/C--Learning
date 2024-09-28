@@ -20,6 +20,9 @@ I have explored inheritance to reuse code by creating new classes based on exist
 ### Pointers and Memory Management
 I've also learned about pointers and how to use them for dynamic memory allocation, allowing efficient management of resources in C++. Understanding pointers has provided insight into how data is managed at a low level and how to avoid memory leaks using smart pointers.
 
+### Friend Functions and Friend Class
+I've  discovered **friend functions** and **friend classes**, which allow external functions or other classes to access the private and protected members of a class, breaking the encapsulation under certain circumstances.
+
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -33,8 +36,7 @@ This project allowed me to apply key C++ concepts like class creation, encapsula
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
 
-### Friend Functions and Friend Class
-I'll be exploring **friend functions** and **friend classes**, which allow external functions or other classes to access the private and protected members of a class, breaking the encapsulation under certain circumstances.
+
 
 ### Static Member Variables and Functions
 I'll learn about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
