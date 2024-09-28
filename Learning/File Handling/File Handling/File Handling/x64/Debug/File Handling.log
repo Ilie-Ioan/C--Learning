@@ -1,0 +1,4 @@
+﻿  File Handling.cpp
+C:\Users\juust\Documents\C++\C-Learning\Learning\File Handling\File Handling\File Handling.cpp(52,20): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\juust\Documents\C++\C-Learning\Learning\File Handling\File Handling\File Handling.cpp(59,20): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  File Handling.vcxproj -> C:\Users\juust\Documents\C++\C-Learning\Learning\File Handling\File Handling\x64\Debug\File Handling.exe
