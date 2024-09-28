@@ -13,6 +13,7 @@ class Alpha
             a1 = arg;
         }
         friend void Fun();
+        friend class Beta;
 };
 class Beta
 {
@@ -24,26 +25,69 @@ class Beta
             b1 = arg;
         }
         friend void Fun();
+        int Suma()
+        {
+            Alpha alpha_obj(3);
+            int suma = alpha_obj.a1 + b1;
+            return suma;
+        }
+        
 };
 void Fun()
 {
-    Alpha a(8);
+   Alpha a(8);
     Beta b(2);
-    int x = a.a1 + b.b1;
-    cout << "Sum is " << x << "\n";
+  int x = a.a1 + b.b1;
+ cout << "Sum is " << x << "\n";
 }
+
+class Person {
+private:
+    int weight;
+public:
+    Person(int w1 = 0)
+    {
+        weight = w1;
+    }
+    friend bool operator>(Person p1, Person p2);
+    friend bool operator<(Person p1, Person p2);
+};
+bool operator>(Person p1, Person p2)
+{
+    return p1.weight > p2.weight;
+}
+bool operator<(Person p1, Person p2)
+{
+    return p1.weight < p2.weight;
+}
+
 int main()
 {
     Fun();
+    Beta beta(7);
+    cout << "Suma este " << beta.Suma() << endl;
+
+
+    int w1, w2;
+    cout << "Introduceti greutatea primei persoane " << endl;
+    cin >> w1;
+    cout << "Introduceti greutatea celei de a doua persoane " << endl;
+    cin >> w2;
+    Person p1(w1);
+    Person p2(w2);
+    if (p1 > p2)
+    {
+        cout << "Prima persoana este mai grea. \n";
+    }
+    else if (p1 < p2)
+    {
+        cout << " A doua persoana este mai grea. \n";
+    }
+    else
+    {
+        cout << "Ambele persoane au  aceeasi greutate \n";
+    }
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
