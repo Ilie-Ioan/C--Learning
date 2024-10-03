@@ -1,0 +1,3 @@
+﻿  Standard Template Library.cpp
+C:\Users\ionut\Documents\GitHub\C--Learning\Learning\STL\Standard Template Library\Standard Template Library.cpp(48,1): warning C4715: 'Stack::pop': not all control paths return a value
+  Standard Template Library.vcxproj -> C:\Users\ionut\Documents\GitHub\C--Learning\Learning\STL\Standard Template Library\x64\Debug\Standard Template Library.exe
