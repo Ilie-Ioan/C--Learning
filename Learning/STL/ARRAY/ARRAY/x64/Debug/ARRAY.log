@@ -1,0 +1,4 @@
+﻿  ARRAY.cpp
+C:\Users\ionut\Documents\GitHub\C--Learning\Learning\STL\ARRAY\ARRAY.cpp(32,18): warning C4858: discarding return value: This member function returns a bool indicating whether the array is empty and has no other effects. It is not useful to call this member function and discard the return value. There's no way to clear an array as its size is fixed.
+C:\Users\ionut\Documents\GitHub\C--Learning\Learning\STL\ARRAY\ARRAY.cpp(39,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ARRAY.vcxproj -> C:\Users\ionut\Documents\GitHub\C--Learning\Learning\STL\ARRAY\x64\Debug\ARRAY.exe
