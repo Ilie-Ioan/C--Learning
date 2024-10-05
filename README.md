@@ -44,6 +44,25 @@ As part of the learning process, I developed a basic **ATM system** that include
 
 This project allowed me to apply key C++ concepts like class creation, encapsulation, basic file handling, and memory management, providing a real-world use case for my learning.
 
+# Student Management System
+
+As part of the learning process, I developed a basic **Student Management System** that includes the following features:
+
+- **Add Student Record**: Users can input student data including admission number, name, gender, class, and marks. This data is saved in a file.
+- **View Student Records**: Displays all the student records stored in the system.
+- **Delete Student Record**: Deletes a student record by moving it to a "Trash" file, allowing for soft deletion.
+- **Retrieve Deleted Records**: Allows the user to view records that have been moved to the "Trash."
+
+This project helped me apply several key C++ concepts, including:
+- **Class Design and Object-Oriented Programming (OOP)**: Creation of classes with member variables and methods.
+- **Encapsulation**: Protecting data by using access specifiers such as `private` and `public`.
+- **File Handling**: Reading from and writing to files using input/output streams (`ifstream`, `ofstream`).
+- **Binary File Operations**: Storing and retrieving data in binary format.
+- **Control Flow**: Using loops and conditionals to handle user input and perform various operations.
+- **Dynamic Memory Management**: Managing files and data efficiently during runtime.
+
+These concepts are fundamental for building real-world applications that deal with persistent data storage.
+
 ## Upcoming Concepts
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
@@ -68,7 +87,7 @@ In addition to the ATM system, the following projects will be implemented as I p
   
 - **Car Booking System**: A GUI-based car booking application built with **Qt5**. This project will involve managing car availability, allowing users to select and book cars through an intuitive interface.
 
-- **Student Management & Keylogger in C++**: This project will combine C++'s OOP features to create a student management system, and explore system-level functionality with a basic keylogger for monitoring input.
+
 
 ## Course Reference
 
