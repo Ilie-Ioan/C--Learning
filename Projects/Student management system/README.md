@@ -1,81 +1,69 @@
 # Student Management System
 
-This is a simple **Student Management System** program written in C++. It allows users to manage student records by adding, viewing, deleting, and retrieving deleted records.
+This **Student Management System** is a console-based C++ application that enables users to manage student records efficiently. It utilizes basic file handling techniques to store, retrieve, delete, and recover student information.
 
-## Features
+## Functionality
 
-- **Add Student Record**: Adds a student's data (Admission Number, Name, Gender, Class, Marks, and Percentage) to a file.
-- **View Student Record**: Displays all stored student data from the file.
-- **Delete Student Record**: Deletes a student's record based on the Admission Number and stores the deleted record in a Trash file.
-- **Retrieve Deleted Records**: Displays the deleted records from the Trash file.
+### 1. Add Student Record
 
-## Requirements
+The program allows users to add student information to a file (`Stu.txt`). For each student, the following details are requested:
 
-- A C++ compiler (e.g., GCC, MSVC)
-- Basic knowledge of how to run C++ programs in your environment (e.g., via terminal/command prompt or an IDE)
+- Admission Number
+- Full Name
+- Gender (M/F)
+- Class
+- Total Marks (out of 500)
 
-## Files
+The program then automatically calculates the percentage based on the total marks and stores all the information in a binary file. This ensures that the records are stored permanently, even when the program is closed.
 
-- **`main.cpp`**: Contains the source code for the program.
-- **`Stu.txt`**: The file where the student records are stored.
-- **`Trash.txt`**: The file where deleted student records are stored.
+### 2. View Student Records
 
-## How to Run
+Users can view all the student records stored in the `Stu.txt` file. The program reads the file and displays the details of each student, including:
 
-1. **Clone or Download** the repository.
-2. **Compile the Code** using a C++ compiler. Example with `g++`:
+- Admission Number
+- Full Name
+- Gender
+- Class
+- Total Marks
+- Percentage
 
-    ```bash
-    g++ -o student_management main.cpp
-    ```
+This functionality provides an easy way to access all the student data at any time.
 
-3. **Run the Program**:
+### 3. Delete Student Record
 
-    ```bash
-    ./student_management
-    ```
+This feature allows users to delete a student record by providing the student’s Admission Number. Upon deletion:
 
-4. Follow the on-screen menu to perform the desired operations:
+- The student record is moved from `Stu.txt` to a separate file called `Trash.txt`.
+- The deleted record can be recovered later, if needed.
+- This process ensures that the record is not permanently erased but stored in a "Trash" file for possible future retrieval.
 
-    ```
-    **************STUDENT MANAGEMENT SYSTEM***************
-    1. Write Student Record
-    2. Read Student Record
-    3. Delete Student Record
-    4. Get Deleted Records
-    0. Exit
-    ```
+### 4. Retrieve Deleted Records
 
-## Code Overview
+Deleted student records are stored in `Trash.txt`. This functionality allows users to view all the records that have been previously deleted. It provides:
 
-The program uses a `Student` class to represent student data. The following methods and functions are used:
+- Access to all deleted records.
+- The ability to review and manage records before deciding on any further actions, such as permanent deletion or manual recovery.
 
-- **Student Class**:
-  - `getData()`: Captures the student's data from user input.
-  - `showData()`: Displays the student's data on the console.
-  - `getAdmno()`: Returns the student's admission number.
+### 5. Exit
 
-- **Functions**:
-  - `addData()`: Adds a student's data to the `Stu.txt` file.
-  - `displayData()`: Displays all the records from the `Stu.txt` file.
-  - `deleteData()`: Deletes a record by admission number and moves it to `Trash.txt`.
-  - `getTrash()`: Displays the records from the `Trash.txt` file.
+The user can choose to exit the system at any time. The program ensures that all operations performed (add, delete, view) are saved and reflected in the files before exiting.
 
-## Example
+## File Management
 
-When you run the program, the following operations can be performed:
+The program uses two primary files for handling student data:
 
-1. Add a new student:
-   - Enter the Admission No., Name, Gender, Class, and Marks.
-   - The student's percentage will be calculated automatically.
+- **Stu.txt**: This file stores active student records.
+- **Trash.txt**: This file temporarily stores deleted records, providing a way to restore or manage them later.
 
-2. View all student records:
-   - All the student details stored in `Stu.txt` will be displayed.
+Both files are managed in binary format to efficiently store and handle structured data such as student information.
 
-3. Delete a student record:
-   - Enter the Admission No. of the student to delete. The record will be moved to `Trash.txt`.
+## Summary
 
-4. Retrieve and display deleted records:
-   - All the records in `Trash.txt` will be displayed.
+The **Student Management System** provides a straightforward approach to managing student data. It allows users to:
 
+- Add new student records.
+- View all active student records.
+- Delete student records while preserving them in a trash system.
+- Retrieve and display deleted student records.
 
+This makes it a practical tool for managing student data with basic operations like data entry, deletion, and recovery, all implemented through simple file handling mechanisms.
