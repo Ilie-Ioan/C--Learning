@@ -32,6 +32,9 @@ I've discoverd into **file handling** in C++, learning how to read from and writ
 ### Exception Handling
 I've covered  the method of managing errors gracefully during runtime using **exception handling**, ensuring that programs can handle unexpected situations without crashing.
 
+### Standard Template Library (STL)
+I've explored the **STL**, which includes powerful collections of data structures and algorithms like **vectors**, **maps**, **sets**, and **iterators**. This will allow me to write efficient and reusable code with minimal effort by leveraging these built-in structures and functions.
+
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -44,9 +47,6 @@ This project allowed me to apply key C++ concepts like class creation, encapsula
 ## Upcoming Concepts
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
-
-### Standard Template Library (STL)
-I'll explore the **STL**, which includes powerful collections of data structures and algorithms like **vectors**, **maps**, **sets**, and **iterators**. This will allow me to write efficient and reusable code with minimal effort by leveraging these built-in structures and functions.
 
 ### Templates and Generic Programming
 I'll also dive into **templates**, allowing for **generic programming**. Templates enable writing functions and classes that work with any data type, making code more flexible and reusable.
