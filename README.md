@@ -63,6 +63,26 @@ This project helped me apply several key C++ concepts, including:
 
 These concepts are fundamental for building real-world applications that deal with persistent data storage.
 
+# Keylogger Program
+
+As part of the learning process, I developed a basic **Keylogger Program** using C++ that includes the following features:
+
+- **Key Logging**: Records and logs every key pressed on the keyboard into a file (`Data.txt`). It captures alphanumeric characters, special keys (like Shift, Caps Lock), and certain control keys (like Arrow keys and Enter).
+- **Special Character Handling**: Detects when certain keys are pressed in combination with the Shift key and logs the corresponding symbol (e.g., Shift + 1 logs "!" instead of "1").
+- **Stealth Mode**: The console window is hidden using the `ShowWindow()` function, making the program run in the background without user awareness.
+
+### Key Concepts Used
+
+This project helped me apply several key C++ concepts, including:
+
+- **Windows-Specific Programming**: Interaction with the Windows operating system via the Windows API (`GetAsyncKeyState`, `ShowWindow`, etc.).
+- **File Handling**: Writing key logs to a file using output file streams (`ofstream`).
+- **Control Flow and Infinite Loops**: Continuously capturing and processing keypress events in real-time.
+- **Conditional Statements**: Handling different cases for alphanumeric, control, and special keys with specific conditions.
+- **Stealth Operations**: Using system calls to hide the program window from users.
+
+These concepts are crucial for developing low-level programs that interact directly with the operating system.
+
 ## Upcoming Concepts
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
