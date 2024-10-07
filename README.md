@@ -41,7 +41,7 @@ I've dived into **templates**, allowing for **generic programming**. Templates e
 ### Lambda Functions
 I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
 
-##Current projects i made:
+# Current projects i made:
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -51,7 +51,7 @@ As part of the learning process, I developed a basic **ATM system** that include
 
 This project allowed me to apply key C++ concepts like class creation, encapsulation, basic file handling, and memory management, providing a real-world use case for my learning.
 
-# Student Management System
+### Student Management System
 
 As part of the learning process, I developed a basic **Student Management System** that includes the following features:
 
@@ -70,7 +70,7 @@ This project helped me apply several key C++ concepts, including:
 
 These concepts are fundamental for building real-world applications that deal with persistent data storage.
 
-# Keylogger Program
+### Keylogger Program
 
 As part of the learning process, I developed a basic **Keylogger Program** using C++ that includes the following features:
 
@@ -102,7 +102,7 @@ Finally, I'll get started with **GUI development** using **Qt5**, learning to bu
 
 ## Future Projects
 
-In addition to the ATM system, the following projects will be implemented as I progress further in the course:
+In addition to the ATM system, Student Management System and Keylogger Program the following projects will be implemented as I progress further in the course:
 
 - **Mobile Phone Type Calculator**: A GUI-based calculator developed using **Qt5** and C++, simulating a mobile phone interface.
   
