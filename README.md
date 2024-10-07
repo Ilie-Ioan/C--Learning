@@ -1,4 +1,4 @@
-# C++ Learning and Projects
+# C++ Learning and projects
 
 ## Introduction
 
@@ -8,41 +8,41 @@ Currently, I've covered object-oriented programming concepts like classes, inher
 
 ## Current Progress
 
-### Object-Oriented Programming (OOP)
+### Object-Oriented programming (OOP)
 I've learned the core concepts of OOP in C++, such as how to define classes and objects. I now understand how encapsulation helps in keeping data secure and how abstraction simplifies complex systems by hiding unnecessary details.
 
-### Constructors and Operator Overloading
+### Constructors and operator overloading
 I've covered how to work with constructors, which are essential for object initialization. Operator overloading has allowed me to make custom data types behave like built-in types, enhancing the flexibility of my code.
 
-### Inheritance and Polymorphism
+### Inheritance and polymorphism
 I have explored inheritance to reuse code by creating new classes based on existing ones. I've also implemented polymorphism, which allows objects of different types to be treated through the same interface, making the code more extensible.
 
-### Pointers and Memory Management
+### Pointers and memory management
 I've also learned about pointers and how to use them for dynamic memory allocation, allowing efficient management of resources in C++. Understanding pointers has provided insight into how data is managed at a low level and how to avoid memory leaks using smart pointers.
 
-### Friend Functions and Friend Class
+### Friend functions and friend class
 I've  discovered **friend functions** and **friend classes**, which allow external functions or other classes to access the private and protected members of a class, breaking the encapsulation under certain circumstances.
 
-### Static Member Variables and Functions
+### Static member variables and functions
 I've learned about **static member variables and functions**, which are shared by all objects of a class, allowing for shared state or behavior without needing to instantiate the class.
 
 ### File Handling
 I've discoverd into **file handling** in C++, learning how to read from and write to files using streams. This will be crucial for building applications that require persistent data storage.
 
-### Exception Handling
+### Exception handling
 I've covered  the method of managing errors gracefully during runtime using **exception handling**, ensuring that programs can handle unexpected situations without crashing.
 
 ### Standard Template Library (STL)
 I've explored the **STL**, which includes powerful collections of data structures and algorithms like **vectors**, **maps**, **sets**, and **iterators**. This will allow me to write efficient and reusable code with minimal effort by leveraging these built-in structures and functions.
 
-### Templates and Generic Programming
+### Templates and generic Programming
 I've dived into **templates**, allowing for **generic programming**. Templates enable writing functions and classes that work with any data type, making code more flexible and reusable.
 
-### Lambda Functions
+### Lambda functions
 I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
 
 # Current projects i made:
-### ATM System Project
+### ATM pystem project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
 - **Check Balance**: Displays the current balance of the user.
@@ -51,7 +51,7 @@ As part of the learning process, I developed a basic **ATM system** that include
 
 This project allowed me to apply key C++ concepts like class creation, encapsulation, basic file handling, and memory management, providing a real-world use case for my learning.
 
-### Student Management System
+### Student management system
 
 As part of the learning process, I developed a basic **Student Management System** that includes the following features:
 
@@ -70,7 +70,7 @@ This project helped me apply several key C++ concepts, including:
 
 These concepts are fundamental for building real-world applications that deal with persistent data storage.
 
-### Keylogger Program
+### Keylogger krogram
 
 As part of the learning process, I developed a basic **Keylogger Program** using C++ that includes the following features:
 
