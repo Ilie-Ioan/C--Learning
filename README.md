@@ -35,6 +35,13 @@ I've covered  the method of managing errors gracefully during runtime using **ex
 ### Standard Template Library (STL)
 I've explored the **STL**, which includes powerful collections of data structures and algorithms like **vectors**, **maps**, **sets**, and **iterators**. This will allow me to write efficient and reusable code with minimal effort by leveraging these built-in structures and functions.
 
+### Templates and Generic Programming
+I've dived into **templates**, allowing for **generic programming**. Templates enable writing functions and classes that work with any data type, making code more flexible and reusable.
+
+### Lambda Functions
+I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
+
+##Current projects i made:
 ### ATM System Project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
 - **Withdraw Money**: Users can withdraw money from their balance.
@@ -87,14 +94,8 @@ These concepts are crucial for developing low-level programs that interact direc
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
 
-### Templates and Generic Programming
-I'll also dive into **templates**, allowing for **generic programming**. Templates enable writing functions and classes that work with any data type, making code more flexible and reusable.
-
 ### Multi-threading
 I'll learn the basics of **multi-threading**, which will enable me to write programs that can perform multiple tasks concurrently, improving the performance of complex applications.
-
-### Lambda Functions
-I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
 
 ### GUI Development with Qt5
 Finally, I'll get started with **GUI development** using **Qt5**, learning to build interactive graphical user interfaces. This will allow me to create user-friendly applications with modern UI elements.
