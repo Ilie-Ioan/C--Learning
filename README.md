@@ -96,10 +96,6 @@ This project helped me apply several key C++ concepts, including:
 
 These concepts are crucial for developing low-level programs that interact directly with the operating system.
 
-## Upcoming Concepts
-
-In the next stages, I will be learning the following intermediate and advanced C++ topics:
-
 ## Future Projects
 
 In addition to the ATM system, Student Management System and Keylogger Program the following projects will be implemented as I progress further in the course:
