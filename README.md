@@ -41,6 +41,9 @@ I've dived into **templates**, allowing for **generic programming**. Templates e
 ### Lambda functions
 I will explore **lambda expressions**, a feature of C++ that allows for the definition of anonymous functions. This feature makes the code more concise and readable, especially when used in combination with STL algorithms.
 
+### Multi-threading
+I've learned the basics of **multi-threading**, which will enable me to write programs that can perform multiple tasks concurrently, improving the performance of complex applications.
+
 # Current projects i made:
 ### ATM pystem project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
@@ -94,8 +97,7 @@ These concepts are crucial for developing low-level programs that interact direc
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
 
-### Multi-threading
-I'll learn the basics of **multi-threading**, which will enable me to write programs that can perform multiple tasks concurrently, improving the performance of complex applications.
+
 
 ### GUI Development with Qt5
 Finally, I'll get started with **GUI development** using **Qt5**, learning to build interactive graphical user interfaces. This will allow me to create user-friendly applications with modern UI elements.
