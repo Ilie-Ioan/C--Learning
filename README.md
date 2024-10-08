@@ -44,6 +44,9 @@ I will explore **lambda expressions**, a feature of C++ that allows for the defi
 ### Multi-threading
 I've learned the basics of **multi-threading**, which will enable me to write programs that can perform multiple tasks concurrently, improving the performance of complex applications.
 
+### GUI Development with Qt5
+Finally, I've  started with **GUI development** using **Qt5**, learning to build interactive graphical user interfaces. This will allow me to create user-friendly applications with modern UI elements.
+
 # Current projects i made:
 ### ATM pystem project
 As part of the learning process, I developed a basic **ATM system** that includes the following features:
@@ -96,11 +99,6 @@ These concepts are crucial for developing low-level programs that interact direc
 ## Upcoming Concepts
 
 In the next stages, I will be learning the following intermediate and advanced C++ topics:
-
-
-
-### GUI Development with Qt5
-Finally, I'll get started with **GUI development** using **Qt5**, learning to build interactive graphical user interfaces. This will allow me to create user-friendly applications with modern UI elements.
 
 ## Future Projects
 
