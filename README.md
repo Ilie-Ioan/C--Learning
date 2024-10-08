@@ -96,11 +96,45 @@ This project helped me apply several key C++ concepts, including:
 
 These concepts are crucial for developing low-level programs that interact directly with the operating system.
 
+# Calculator Application
+
+## Overview
+
+This is a simple calculator application created using the **Qt framework** in C++. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface consists of a number pad (0-9), arithmetic operation buttons, and control buttons for clearing the input and calculating the result.
+
+## Features
+
+- **Digit Input (0-9)**: Buttons are available to enter numbers directly into the display.
+- **Basic Arithmetic Operations**: You can add (`+`), subtract (`-`), multiply (`*`), and divide (`/`) numbers.
+- **Clear Button (`C`)**: Resets the calculator display to start a new operation.
+- **Equal Button (`=`)**: Calculates and displays the result of the current operation.
+
+## Graphical User Interface (GUI)
+
+The calculator features a clean and user-friendly interface:
+
+- **Display**: A large gray display area at the top to show the current input or result.
+- **Buttons**:
+    - **Digits (0-9)**: White buttons arranged in a grid for number input.
+    - **Operations (`+`, `-`, `*`, `/`)**: Yellow buttons on the right side for selecting arithmetic operations.
+    - **Clear (`C`)**: A yellow button to reset the display.
+    - **Equals (`=`)**: A yellow button to calculate the result of the selected operation.
+
+![Calculator Interface](file-krb4jpiE9JW5tqkCR6q8RNQG)
+
+## Code Structure
+
+- **UI Handling**: The graphical interface and button clicks are handled using Qt's signals and slots mechanism. Each button click updates the display with the corresponding number or operation.
+  
+- **Operations**: When an operation (`+`, `-`, `*`, `/`) is selected, the first number is stored in a variable, and the display is cleared. After entering the second number, pressing the `=` button calculates and displays the result.
+
+## License
+
+This project is licensed under the MIT License.
+
 ## Future Projects
 
 In addition to the ATM system, Student Management System and Keylogger Program the following projects will be implemented as I progress further in the course:
-
-- **Mobile Phone Type Calculator**: A GUI-based calculator developed using **Qt5** and C++, simulating a mobile phone interface.
   
 - **Car Booking System**: A GUI-based car booking application built with **Qt5**. This project will involve managing car availability, allowing users to select and book cars through an intuitive interface.
 
