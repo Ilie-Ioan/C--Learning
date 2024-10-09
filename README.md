@@ -137,15 +137,66 @@ The calculator features a clean and user-friendly interface:
 
 This project is licensed under the MIT License.
 
----
+### 5.Car Booking System
+#### Features
 
-## Future Projects
+1. **Login System**:
+   - Admin login with hardcoded credentials (`admin`/`admin`).
+   - If the login is successful, the main menu is displayed.
+   
+2. **Main Menu**:
+   - Options to add new cars to the system.
+   - Book a car.
+   - Exit the application.
+   
+3. **Add Car**:
+   - Allows the admin to add new car details such as car number, brand, fare, and car type.
+   - Supported car types: Mini, Sedan, SUV, and Premium.
+   - The car details are saved in `carData.txt`.
+   
+4. **Book Car**:
+   - Users can select a car and input their details (name, age, pickup location, destination, and gender).
+   - After booking, the selected car is removed from the available list and the booking information is saved in `bookCarData.txt`.
 
-In addition to the ATM system, Student Management System, Keylogger Program, and Calculator Application, the following projects will be implemented as I progress further in the course:
-  
-- **Car Booking System**: A GUI-based car booking application built with **Qt5**. This project will involve managing car availability, allowing users to select and book cars through an intuitive interface.
+#### File Structure
 
----
+- `login.h`, `login.cpp`: Handles the login functionality.
+- `mainmenu.h`, `mainmenu.cpp`: Displays the main menu where users can navigate to add cars, book cars, or exit the application.
+- `addcar.h`, `addcar.cpp`: Handles adding new cars to the system.
+- `book_car.h`, `book_car.cpp`: Manages the car booking process.
+
+#### How to Run
+
+1. **Set Up**:
+   - Ensure you have Qt installed on your machine.
+   - Clone or download the project.
+
+2. **Compile the Project**:
+   - Open the project in Qt Creator.
+   - Build and run the application.
+
+3. **Login**:
+   - Use the following credentials to log in:
+     - Username: `admin`
+     - Password: `admin`
+
+4. **Main Menu**:
+   - From the main menu, you can either add new cars, book available cars, or exit the system.
+
+5. **Add Car**:
+   - Enter the car details (car number, brand, fare) and select a car type.
+   - Car data will be saved in `carData.txt`.
+
+6. **Book a Car**:
+   - Select a car from the available list, enter your personal details, and confirm the booking.
+   - The car will be removed from the list and the booking details will be saved in `bookCarData.txt`.
+
+### Data Storage
+
+- `carData.txt`: Stores details of all available cars.
+- `bookCarData.txt`: Stores details of all car bookings.
+
+
 
 ## Course Reference
 
