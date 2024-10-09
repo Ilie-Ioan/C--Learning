@@ -2,6 +2,7 @@
 #define LOGIN_H
 
 #include <QMainWindow>
+#include "mainmenu.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +18,13 @@ public:
     login(QWidget *parent = nullptr);
     ~login();
 
+private slots:
+    void on_exit_but_clicked();
+
+    void on_login_but_clicked();
+
 private:
     Ui::login *ui;
+    MainMenu MainMenuUi;
 };
 #endif // LOGIN_H

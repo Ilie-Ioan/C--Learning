@@ -9,14 +9,23 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    addcar.cpp \
+    book_car.cpp \
     main.cpp \
-    login.cpp
+    login.cpp \
+    mainmenu.cpp
 
 HEADERS += \
-    login.h
+    addcar.h \
+    book_car.h \
+    login.h \
+    mainmenu.h
 
 FORMS += \
-    login.ui
+    addcar.ui \
+    book_car.ui \
+    login.ui \
+    mainmenu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
